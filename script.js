@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const winSound = document.getElementById('win-sound');
   const loseSound = document.createElement('audio'); // Added lose sound
   loseSound.id = 'lose-sound';
-  loseSound.src = 'sounds/boo-6377.mp3'; // Using the boo sound from sounds directory
+  loseSound.src = 'boo-6377.mp3'; // Using the boo sound from sounds directory
   document.body.appendChild(loseSound); //Append lose sound
   const drawSound = document.getElementById('draw-sound');
   const aiMoveSound = document.getElementById('ai-move-sound');
